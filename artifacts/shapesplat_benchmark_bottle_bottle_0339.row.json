@@ -1,0 +1,43 @@
+{
+  "category": "bottle",
+  "object": "bottle_0339",
+  "n_gaussians": 14534,
+  "feature_dim": 3,
+  "source_mesh": "data/modelnet40/bottle/test/bottle_0339.off",
+  "baseline_superquadric": {
+    "final_loss": 2.9588370557466317,
+    "assignment_entropy": 0.00790681868402003,
+    "primitive_file": "artifacts/shapesplat_benchmark_bottle_bottle_0339_baseline_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.0016577215399999892,
+      "coverage@0.05": 0.9703333333333334,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superquadric": {
+    "final_loss": 2.0169724217724463,
+    "assignment_entropy": 0.019228092551598044,
+    "primitive_file": "artifacts/shapesplat_benchmark_bottle_bottle_0339_gaussian_aware_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.0014453092317305255,
+      "coverage@0.05": 0.9856666666666667,
+      "coverage@0.1": 0.9993333333333333,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superfrustum": {
+    "final_loss": 0.7991353742573759,
+    "assignment_entropy": 0.05714632381540125,
+    "primitive_file": "artifacts/shapesplat_benchmark_bottle_bottle_0339_gaussian_aware_superfrustum.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.007797335793180049,
+      "coverage@0.05": 0.9553333333333334,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  }
+}

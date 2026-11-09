@@ -1,0 +1,43 @@
+{
+  "category": "airplane",
+  "object": "airplane_0628",
+  "n_gaussians": 15755,
+  "feature_dim": 3,
+  "source_mesh": "data/modelnet40/airplane/test/airplane_0628.off",
+  "baseline_superquadric": {
+    "final_loss": 2.7847095473823282,
+    "assignment_entropy": 0.007347072126196315,
+    "primitive_file": "artifacts/shapesplat_benchmark_airplane_airplane_0628_baseline_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.008680149522323372,
+      "coverage@0.05": 0.7903333333333333,
+      "coverage@0.1": 0.997,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superquadric": {
+    "final_loss": 2.0861681069451388,
+    "assignment_entropy": 0.016223506855265878,
+    "primitive_file": "artifacts/shapesplat_benchmark_airplane_airplane_0628_gaussian_aware_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.007721033497862991,
+      "coverage@0.05": 0.86,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superfrustum": {
+    "final_loss": 0.98874241607831,
+    "assignment_entropy": 0.057334648127404006,
+    "primitive_file": "artifacts/shapesplat_benchmark_airplane_airplane_0628_gaussian_aware_superfrustum.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.01741965806922137,
+      "coverage@0.05": 0.6636666666666666,
+      "coverage@0.1": 0.882,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  }
+}

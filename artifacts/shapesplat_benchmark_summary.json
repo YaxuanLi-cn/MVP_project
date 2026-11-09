@@ -1,0 +1,370 @@
+{
+  "input": "artifacts/shapesplat_benchmark.json",
+  "n_objects": 67,
+  "methods": [
+    "baseline_superquadric",
+    "gaussian_aware_superquadric",
+    "gaussian_aware_superfrustum"
+  ],
+  "overall": {
+    "baseline_superquadric": {
+      "n": 67,
+      "loss_mean": 2.8989393775943664,
+      "loss_std": 0.14554801674401588,
+      "chamfer_mean": 0.015293531125438986,
+      "chamfer_std": 0.020141039851409453,
+      "coverage05_mean": 0.7096119402985075,
+      "coverage05_std": 0.2881829969317915,
+      "coverage10_mean": 0.8727960199004975,
+      "coverage10_std": 0.22347632204756127
+    },
+    "gaussian_aware_superquadric": {
+      "n": 67,
+      "loss_mean": 2.0993076757906026,
+      "loss_std": 0.1991338849704371,
+      "chamfer_mean": 0.014343614726662053,
+      "chamfer_std": 0.01904226335619008,
+      "coverage05_mean": 0.7209004975124378,
+      "coverage05_std": 0.30527514230308084,
+      "coverage10_mean": 0.8569999999999999,
+      "coverage10_std": 0.2496866049138413
+    },
+    "gaussian_aware_superfrustum": {
+      "n": 67,
+      "loss_mean": 0.8449544276188596,
+      "loss_std": 0.11880346767609717,
+      "chamfer_mean": 0.02083056533094549,
+      "chamfer_std": 0.021465531365556092,
+      "coverage05_mean": 0.754223880597015,
+      "coverage05_std": 0.262561247548083,
+      "coverage10_mean": 0.8992985074626867,
+      "coverage10_std": 0.17176930475197724
+    }
+  },
+  "by_category": {
+    "airplane": {
+      "n_objects": 7,
+      "baseline_superquadric": {
+        "n": 7,
+        "loss_mean": 2.8347119589369867,
+        "loss_std": 0.08178373954296987,
+        "chamfer_mean": 0.007304048475206454,
+        "chamfer_std": 0.002084301094851058,
+        "coverage05_mean": 0.8017142857142856,
+        "coverage05_std": 0.12959101314454907,
+        "coverage10_mean": 0.99,
+        "coverage10_std": 0.017117242768623704
+      },
+      "gaussian_aware_superquadric": {
+        "n": 7,
+        "loss_mean": 2.176487490288826,
+        "loss_std": 0.07821770395092831,
+        "chamfer_mean": 0.006236860530992678,
+        "chamfer_std": 0.002019674979967969,
+        "coverage05_mean": 0.8456190476190475,
+        "coverage05_std": 0.09573022057989383,
+        "coverage10_mean": 0.9906190476190476,
+        "coverage10_std": 0.014234060053563983
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 7,
+        "loss_mean": 1.0060967345685428,
+        "loss_std": 0.09070387965807562,
+        "chamfer_mean": 0.012974786414420047,
+        "chamfer_std": 0.004934808165030466,
+        "coverage05_mean": 0.8582857142857142,
+        "coverage05_std": 0.10854021759688356,
+        "coverage10_mean": 0.9774761904761905,
+        "coverage10_std": 0.043038250490592726
+      }
+    },
+    "bottle": {
+      "n_objects": 8,
+      "baseline_superquadric": {
+        "n": 8,
+        "loss_mean": 3.093983417448473,
+        "loss_std": 0.09974745665275794,
+        "chamfer_mean": 0.0014048507230642595,
+        "chamfer_std": 0.0004926247752824574,
+        "coverage05_mean": 0.9738749999999999,
+        "coverage05_std": 0.04325631892549488,
+        "coverage10_mean": 0.99975,
+        "coverage10_std": 0.0007071067811865482
+      },
+      "gaussian_aware_superquadric": {
+        "n": 8,
+        "loss_mean": 2.143734192021693,
+        "loss_std": 0.09111486130200021,
+        "chamfer_mean": 0.0014718050686096734,
+        "chamfer_std": 0.0006592899805480438,
+        "coverage05_mean": 0.986,
+        "coverage05_std": 0.011907047399661176,
+        "coverage10_mean": 0.9998333333333334,
+        "coverage10_std": 0.00030860669992420123
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 8,
+        "loss_mean": 0.9038468773887972,
+        "loss_std": 0.07736183842510409,
+        "chamfer_mean": 0.008536076750724559,
+        "chamfer_std": 0.0018985190156003097,
+        "coverage05_mean": 0.9873333333333334,
+        "coverage05_std": 0.020945886439350303,
+        "coverage10_mean": 1.0,
+        "coverage10_std": 0.0
+      }
+    },
+    "bowl": {
+      "n_objects": 8,
+      "baseline_superquadric": {
+        "n": 8,
+        "loss_mean": 2.9099054896365257,
+        "loss_std": 0.01999866857752937,
+        "chamfer_mean": 0.0019792694504646292,
+        "chamfer_std": 0.0007223100111575257,
+        "coverage05_mean": 0.9645416666666666,
+        "coverage05_std": 0.04378516727175852,
+        "coverage10_mean": 0.99975,
+        "coverage10_std": 0.0007071067811865482
+      },
+      "gaussian_aware_superquadric": {
+        "n": 8,
+        "loss_mean": 2.082021223615717,
+        "loss_std": 0.12591767540002277,
+        "chamfer_mean": 0.0017114883036591433,
+        "chamfer_std": 0.00037872111294657754,
+        "coverage05_mean": 0.9644166666666667,
+        "coverage05_std": 0.04108981644973625,
+        "coverage10_mean": 1.0,
+        "coverage10_std": 0.0
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 8,
+        "loss_mean": 0.746255497434871,
+        "loss_std": 0.05074337829993262,
+        "chamfer_mean": 0.004871866901991061,
+        "chamfer_std": 0.0008445127235435388,
+        "coverage05_mean": 0.9069166666666667,
+        "coverage05_std": 0.06197151163210603,
+        "coverage10_mean": 0.9980416666666667,
+        "coverage10_std": 0.0022497795306447217
+      }
+    },
+    "car": {
+      "n_objects": 7,
+      "baseline_superquadric": {
+        "n": 7,
+        "loss_mean": 3.0150796941517215,
+        "loss_std": 0.04126889435138233,
+        "chamfer_mean": 0.013561333340537907,
+        "chamfer_std": 0.010817121742057973,
+        "coverage05_mean": 0.7239047619047619,
+        "coverage05_std": 0.16269008418481898,
+        "coverage10_mean": 0.9314285714285715,
+        "coverage10_std": 0.09651515219474403
+      },
+      "gaussian_aware_superquadric": {
+        "n": 7,
+        "loss_mean": 2.304211558692589,
+        "loss_std": 0.15559308489232823,
+        "chamfer_mean": 0.012438930398358817,
+        "chamfer_std": 0.010323284912961998,
+        "coverage05_mean": 0.741904761904762,
+        "coverage05_std": 0.18119661045453261,
+        "coverage10_mean": 0.9042857142857142,
+        "coverage10_std": 0.10355002880544491
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 7,
+        "loss_mean": 0.8915659853776765,
+        "loss_std": 0.05492618263849448,
+        "chamfer_mean": 0.027846345475862642,
+        "chamfer_std": 0.018630316755616962,
+        "coverage05_mean": 0.7667619047619049,
+        "coverage05_std": 0.18830390274330425,
+        "coverage10_mean": 0.9044761904761905,
+        "coverage10_std": 0.10598320222298982
+      }
+    },
+    "cone": {
+      "n_objects": 8,
+      "baseline_superquadric": {
+        "n": 8,
+        "loss_mean": 2.908187052921818,
+        "loss_std": 0.10803150207262123,
+        "chamfer_mean": 0.010367954090869668,
+        "chamfer_std": 0.0069482073581961035,
+        "coverage05_mean": 0.6490833333333333,
+        "coverage05_std": 0.19718203256953704,
+        "coverage10_mean": 0.831875,
+        "coverage10_std": 0.13301974283589255
+      },
+      "gaussian_aware_superquadric": {
+        "n": 8,
+        "loss_mean": 1.915607028924569,
+        "loss_std": 0.08111164102135057,
+        "chamfer_mean": 0.00994606645872766,
+        "chamfer_std": 0.0066185435620919756,
+        "coverage05_mean": 0.6777916666666667,
+        "coverage05_std": 0.19198304633317254,
+        "coverage10_mean": 0.850375,
+        "coverage10_std": 0.1192253352084009
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 8,
+        "loss_mean": 0.8283896318040967,
+        "loss_std": 0.09184209850823218,
+        "chamfer_mean": 0.011914100994593363,
+        "chamfer_std": 0.007258366166494986,
+        "coverage05_mean": 0.7757499999999999,
+        "coverage05_std": 0.15953531230738816,
+        "coverage10_mean": 0.9720833333333334,
+        "coverage10_std": 0.02962932374180727
+      }
+    },
+    "cup": {
+      "n_objects": 7,
+      "baseline_superquadric": {
+        "n": 7,
+        "loss_mean": 2.930231813154187,
+        "loss_std": 0.03573277521294245,
+        "chamfer_mean": 0.0032242410543462754,
+        "chamfer_std": 0.0013800044680933152,
+        "coverage05_mean": 0.8764761904761905,
+        "coverage05_std": 0.04638680253838853,
+        "coverage10_mean": 0.9895238095238096,
+        "coverage10_std": 0.019144535186659067
+      },
+      "gaussian_aware_superquadric": {
+        "n": 7,
+        "loss_mean": 2.179432825586224,
+        "loss_std": 0.10175565416991578,
+        "chamfer_mean": 0.00298104869595248,
+        "chamfer_std": 0.0012130348183239197,
+        "coverage05_mean": 0.9178571428571428,
+        "coverage05_std": 0.03506758403048959,
+        "coverage10_mean": 0.9958095238095239,
+        "coverage10_std": 0.007410845762842114
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 7,
+        "loss_mean": 0.7934193081020432,
+        "loss_std": 0.05256870166959169,
+        "chamfer_mean": 0.007518923039601532,
+        "chamfer_std": 0.001636837065675531,
+        "coverage05_mean": 0.8977142857142857,
+        "coverage05_std": 0.05352895670895528,
+        "coverage10_mean": 0.9960952380952381,
+        "coverage10_std": 0.008695921320886448
+      }
+    },
+    "desk": {
+      "n_objects": 8,
+      "baseline_superquadric": {
+        "n": 8,
+        "loss_mean": 2.819512054266716,
+        "loss_std": 0.09973468982310585,
+        "chamfer_mean": 0.032837449229361486,
+        "chamfer_std": 0.015320543745404026,
+        "coverage05_mean": 0.46120833333333333,
+        "coverage05_std": 0.24845752327715068,
+        "coverage10_mean": 0.7129166666666666,
+        "coverage10_std": 0.24891572807385973
+      },
+      "gaussian_aware_superquadric": {
+        "n": 8,
+        "loss_mean": 2.1530622742589296,
+        "loss_std": 0.20828609063945266,
+        "chamfer_mean": 0.03283723315023223,
+        "chamfer_std": 0.016799343019057632,
+        "coverage05_mean": 0.42174999999999996,
+        "coverage05_std": 0.2653334978463237,
+        "coverage10_mean": 0.63,
+        "coverage10_std": 0.27845617477413076
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 8,
+        "loss_mean": 0.795182357657193,
+        "loss_std": 0.08186842667004493,
+        "chamfer_mean": 0.0394981344746453,
+        "chamfer_std": 0.017262182251945094,
+        "coverage05_mean": 0.500875,
+        "coverage05_std": 0.23677850727618102,
+        "coverage10_mean": 0.7380833333333333,
+        "coverage10_std": 0.18350310321323965
+      }
+    },
+    "lamp": {
+      "n_objects": 7,
+      "baseline_superquadric": {
+        "n": 7,
+        "loss_mean": 2.850935343646646,
+        "loss_std": 0.210237903852321,
+        "chamfer_mean": 0.008818271662726465,
+        "chamfer_std": 0.00728218752052034,
+        "coverage05_mean": 0.7464285714285713,
+        "coverage05_std": 0.2557859141204493,
+        "coverage10_mean": 0.9285714285714286,
+        "coverage10_std": 0.10444398007326687
+      },
+      "gaussian_aware_superquadric": {
+        "n": 7,
+        "loss_mean": 2.0905420204702216,
+        "loss_std": 0.33555698518371063,
+        "chamfer_mean": 0.007931320132669792,
+        "chamfer_std": 0.0069991708764385405,
+        "coverage05_mean": 0.7822380952380952,
+        "coverage05_std": 0.25473157362834825,
+        "coverage10_mean": 0.9456666666666667,
+        "coverage10_std": 0.11248753017310162
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 7,
+        "loss_mean": 0.9062892716772311,
+        "loss_std": 0.18431849481654253,
+        "chamfer_mean": 0.01319373905289611,
+        "chamfer_std": 0.008555635206622147,
+        "coverage05_mean": 0.8327142857142859,
+        "coverage05_std": 0.2161209733743468,
+        "coverage10_mean": 0.9567142857142857,
+        "coverage10_std": 0.07626863550572256
+      }
+    },
+    "table": {
+      "n_objects": 7,
+      "baseline_superquadric": {
+        "n": 7,
+        "loss_mean": 2.708503216486787,
+        "loss_std": 0.12555244008608216,
+        "chamfer_mean": 0.060227876532087436,
+        "chamfer_std": 0.019136360012817856,
+        "coverage05_mean": 0.1592380952380952,
+        "coverage05_std": 0.12799778850602797,
+        "coverage10_mean": 0.46376190476190476,
+        "coverage10_std": 0.3485608355576629
+      },
+      "gaussian_aware_superquadric": {
+        "n": 7,
+        "loss_mean": 1.8633570374482957,
+        "loss_std": 0.12689985138189325,
+        "chamfer_mean": 0.05516747493295876,
+        "chamfer_std": 0.017527492569405397,
+        "coverage05_mean": 0.12676190476190477,
+        "coverage05_std": 0.12257359305448182,
+        "coverage10_mean": 0.388952380952381,
+        "coverage10_std": 0.34813542642522766
+      },
+      "gaussian_aware_superfrustum": {
+        "n": 7,
+        "loss_mean": 0.7487075197293542,
+        "loss_std": 0.08498935421827492,
+        "chamfer_mean": 0.06376426947403589,
+        "chamfer_std": 0.023249066748736738,
+        "coverage05_mean": 0.23966666666666667,
+        "coverage05_std": 0.13694443317556862,
+        "coverage10_mean": 0.5348571428571429,
+        "coverage10_std": 0.1418710756863502
+      }
+    }
+  }
+}

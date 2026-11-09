@@ -1,0 +1,43 @@
+{
+  "category": "car",
+  "object": "car_0205",
+  "n_gaussians": 16944,
+  "feature_dim": 3,
+  "source_mesh": "data/modelnet40/car/test/car_0205.off",
+  "baseline_superquadric": {
+    "final_loss": 3.026472491125616,
+    "assignment_entropy": 0.011544459771328874,
+    "primitive_file": "artifacts/shapesplat_benchmark_car_car_0205_baseline_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.001459135215768531,
+      "coverage@0.05": 0.944,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superquadric": {
+    "final_loss": 2.285772098805124,
+    "assignment_entropy": 0.015073410356849783,
+    "primitive_file": "artifacts/shapesplat_benchmark_car_car_0205_gaussian_aware_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.0016119704749124008,
+      "coverage@0.05": 0.933,
+      "coverage@0.1": 0.9996666666666667,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superfrustum": {
+    "final_loss": 0.9094362328308555,
+    "assignment_entropy": 0.05646524935571873,
+    "primitive_file": "artifacts/shapesplat_benchmark_car_car_0205_gaussian_aware_superfrustum.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.008894719626309755,
+      "coverage@0.05": 0.9803333333333333,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  }
+}

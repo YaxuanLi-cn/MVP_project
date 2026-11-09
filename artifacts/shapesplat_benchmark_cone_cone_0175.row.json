@@ -1,0 +1,43 @@
+{
+  "category": "cone",
+  "object": "cone_0175",
+  "n_gaussians": 18015,
+  "feature_dim": 3,
+  "source_mesh": "data/modelnet40/cone/test/cone_0175.off",
+  "baseline_superquadric": {
+    "final_loss": 2.8811207240787775,
+    "assignment_entropy": 0.010572873299580444,
+    "primitive_file": "artifacts/shapesplat_benchmark_cone_cone_0175_baseline_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.011157471798265584,
+      "coverage@0.05": 0.5646666666666667,
+      "coverage@0.1": 0.7563333333333333,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superquadric": {
+    "final_loss": 1.8222579909762884,
+    "assignment_entropy": 0.026228245436297187,
+    "primitive_file": "artifacts/shapesplat_benchmark_cone_cone_0175_gaussian_aware_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.013752857174341139,
+      "coverage@0.05": 0.537,
+      "coverage@0.1": 0.767,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superfrustum": {
+    "final_loss": 0.7981400320302591,
+    "assignment_entropy": 0.04935256540344774,
+    "primitive_file": "artifacts/shapesplat_benchmark_cone_cone_0175_gaussian_aware_superfrustum.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.01146252597579229,
+      "coverage@0.05": 0.6996666666666667,
+      "coverage@0.1": 0.9686666666666667,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  }
+}

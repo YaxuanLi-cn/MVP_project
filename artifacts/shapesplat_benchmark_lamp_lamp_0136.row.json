@@ -1,0 +1,43 @@
+{
+  "category": "lamp",
+  "object": "lamp_0136",
+  "n_gaussians": 9618,
+  "feature_dim": 3,
+  "source_mesh": "data/modelnet40/lamp/test/lamp_0136.off",
+  "baseline_superquadric": {
+    "final_loss": 2.763123482249425,
+    "assignment_entropy": 0.007801529744432263,
+    "primitive_file": "artifacts/shapesplat_benchmark_lamp_lamp_0136_baseline_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.0013789687356947568,
+      "coverage@0.05": 0.9156666666666666,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superquadric": {
+    "final_loss": 1.8196879596047437,
+    "assignment_entropy": 0.050718540774533645,
+    "primitive_file": "artifacts/shapesplat_benchmark_lamp_lamp_0136_gaussian_aware_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.0009142364594025463,
+      "coverage@0.05": 1.0,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superfrustum": {
+    "final_loss": 1.0677921110831572,
+    "assignment_entropy": 0.24764220171159412,
+    "primitive_file": "artifacts/shapesplat_benchmark_lamp_lamp_0136_gaussian_aware_superfrustum.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.005296277397287991,
+      "coverage@0.05": 1.0,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  }
+}

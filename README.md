@@ -137,6 +137,9 @@ coverage；同时保留基于高 opacity Gaussians 的 `opacity_surface_proxy` �
 可直接放入项目报告的实验设置、ShapeSplat 数值结果和 SceneSplat-7K
 场景结果见 [report_results.md](docs/report_results.md)。
 
+扩展到 67 个真实对象的跨类别 benchmark 结果见
+[large_benchmark_results.md](docs/large_benchmark_results.md)。
+
 ## 一键下载实验数据
 
 仓库不包含数据文件。接受对应 Hugging Face gated terms 后运行：

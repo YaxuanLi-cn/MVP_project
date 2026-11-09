@@ -6,6 +6,9 @@ data/*
 # Generated binary arrays and caches.
 artifacts/*.npz
 artifacts/*.npy
+artifacts/**/*.npz
+artifacts/**/*.npy
+artifacts/benchmark_npz/
 __pycache__/
 *.py[cod]
 .pytest_cache/

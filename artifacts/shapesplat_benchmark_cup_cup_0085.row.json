@@ -1,0 +1,43 @@
+{
+  "category": "cup",
+  "object": "cup_0085",
+  "n_gaussians": 17590,
+  "feature_dim": 3,
+  "source_mesh": "data/modelnet40/cup/test/cup_0085.off",
+  "baseline_superquadric": {
+    "final_loss": 3.0008306052748934,
+    "assignment_entropy": 0.006065549774786947,
+    "primitive_file": "artifacts/shapesplat_benchmark_cup_cup_0085_baseline_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.0018725621214287708,
+      "coverage@0.05": 0.8743333333333333,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superquadric": {
+    "final_loss": 2.2012031338860534,
+    "assignment_entropy": 0.012754479112136213,
+    "primitive_file": "artifacts/shapesplat_benchmark_cup_cup_0085_gaussian_aware_superquadric.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.002612460196908409,
+      "coverage@0.05": 0.932,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  },
+  "gaussian_aware_superfrustum": {
+    "final_loss": 0.7692234851508886,
+    "assignment_entropy": 0.05733804156274887,
+    "primitive_file": "artifacts/shapesplat_benchmark_cup_cup_0085_gaussian_aware_superfrustum.json",
+    "source_mesh_metrics": {
+      "chamfer": 0.008549985397907226,
+      "coverage@0.05": 0.9253333333333333,
+      "coverage@0.1": 1.0,
+      "n_primitives": 16,
+      "compression_ratio": 187.5
+    }
+  }
+}
