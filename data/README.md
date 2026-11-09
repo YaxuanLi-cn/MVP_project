@@ -17,4 +17,6 @@ python scripts/download_shapesplat_batch.py \
 ```
 
 The script downloads the four ShapeSplat bowl objects, matching ModelNet40 OFF
-meshes, and one SceneSplat-7K ScanNet Gaussian scene into this directory.
+meshes, one SceneSplat-7K ScanNet Gaussian scene, and the ShapeSplat-Part
+annotation archive into this directory. Use `--skip-part` to omit the 675 MB
+part annotation archive or `--skip-scene` to omit the scene PLY.

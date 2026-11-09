@@ -10,11 +10,15 @@ from __future__ import annotations
 import argparse
 import os
 from pathlib import Path
+import shutil
 import sys
+import zipfile
 from urllib.request import Request, urlopen
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from download_shapesplat import API, RAW, download, request_json
+
+PART_URL = "https://omnomnom.vision.rwth-aachen.de/data/point2vec/data/shapenetcore_partanno_segmentation_benchmark_v0_normal.zip"
 
 
 def download_shape_objects(token: str, root: Path, category: str, objects: list[str]) -> None:
@@ -55,6 +59,22 @@ def download_scene(token: str, root: Path, scene: str) -> None:
     download(RAW.format(repo=repo, path=rel), target, token)
 
 
+def download_part_annotations(root: Path, url: str = PART_URL) -> None:
+    target_root = root / "shapesplat_part"
+    archive = target_root / "partanno.zip"
+    marker = target_root / "extracted" / "shapenetcore_partanno_segmentation_benchmark_v0_normal"
+    target_root.mkdir(parents=True, exist_ok=True)
+    if not archive.exists():
+        print(f"Downloading ShapeSplat-Part annotations to {archive}")
+        with urlopen(url) as src, open(archive, "wb") as dst:
+            shutil.copyfileobj(src, dst, length=1024 * 1024)
+    if not marker.exists():
+        print(f"Extracting {archive}")
+        marker.parent.mkdir(parents=True, exist_ok=True)
+        with zipfile.ZipFile(archive) as zf:
+            zf.extractall(marker.parent)
+
+
 def main() -> None:
     p = argparse.ArgumentParser()
     p.add_argument("--token", default=None)
@@ -63,6 +83,7 @@ def main() -> None:
     p.add_argument("--objects", default="bowl_0065,bowl_0066,bowl_0067,bowl_0068")
     p.add_argument("--scene", default="scene0000_00")
     p.add_argument("--skip-scene", action="store_true")
+    p.add_argument("--skip-part", action="store_true", help="skip the 675 MB ShapeSplat-Part annotation archive")
     args = p.parse_args()
     token = args.token or os.getenv("HF_TOKEN") or os.getenv("HUGGINGFACE_HUB_TOKEN") or ""
     if not token:
@@ -73,6 +94,8 @@ def main() -> None:
     download_modelnet_meshes(root, args.category, objects)
     if not args.skip_scene:
         download_scene(token, root, args.scene)
+    if not args.skip_part:
+        download_part_annotations(root)
     print(f"Data is available under {root}")
 
 
