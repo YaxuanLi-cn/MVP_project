@@ -1,0 +1,247 @@
+{
+  "category": "bowl",
+  "split": "test",
+  "n_objects": 4,
+  "rows": [
+    {
+      "object": "bowl_0065",
+      "n_gaussians": 17576,
+      "feature_dim": 3,
+      "source_mesh": "data/modelnet40/bowl/test/bowl_0065.off",
+      "baseline_superquadric": {
+        "final_loss": 2.942761286367724,
+        "assignment_entropy": 0.008006086416965437,
+        "proxy_metrics": {
+          "chamfer": 0.001212035619632039,
+          "coverage@0.05": 0.987938097405553,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 274.625
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0015779243982585302,
+          "coverage@0.05": 0.9763333333333334,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.0272991907814397,
+        "assignment_entropy": 0.014849393163444304,
+        "proxy_metrics": {
+          "chamfer": 0.0012276402438805014,
+          "coverage@0.05": 0.999089667728721,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 274.625
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0014271923044434625,
+          "coverage@0.05": 0.998,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superfrustum": {
+        "final_loss": 0.7667152842283408,
+        "assignment_entropy": 0.0443569279437096,
+        "proxy_metrics": {
+          "chamfer": 0.004884835052806858,
+          "coverage@0.05": 0.9786071916249431,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 274.625
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.005052170853514275,
+          "coverage@0.05": 0.9416666666666667,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      }
+    },
+    {
+      "object": "bowl_0066",
+      "n_gaussians": 15384,
+      "feature_dim": 3,
+      "source_mesh": "data/modelnet40/bowl/test/bowl_0066.off",
+      "baseline_superquadric": {
+        "final_loss": 2.9028041395224466,
+        "assignment_entropy": 0.006815732072752681,
+        "proxy_metrics": {
+          "chamfer": 0.0014966501296768174,
+          "coverage@0.05": 0.9716588663546541,
+          "coverage@0.1": 0.999739989599584,
+          "n_primitives": 16,
+          "compression_ratio": 240.375
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0036856481795829064,
+          "coverage@0.05": 1.0,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.0081779750702404,
+        "assignment_entropy": 0.01533465234541999,
+        "proxy_metrics": {
+          "chamfer": 0.0012991495874008717,
+          "coverage@0.05": 0.9929797191887676,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 240.375
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0023986055335204846,
+          "coverage@0.05": 1.0,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superfrustum": {
+        "final_loss": 0.834400013120344,
+        "assignment_entropy": 0.04316419050870159,
+        "proxy_metrics": {
+          "chamfer": 0.005350381623640582,
+          "coverage@0.05": 0.843733749349974,
+          "coverage@0.1": 0.9924596983879355,
+          "n_primitives": 16,
+          "compression_ratio": 240.375
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0063150662293700015,
+          "coverage@0.05": 0.7818333333333334,
+          "coverage@0.1": 0.9998333333333334,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      }
+    },
+    {
+      "object": "bowl_0067",
+      "n_gaussians": 17887,
+      "feature_dim": 3,
+      "source_mesh": "data/modelnet40/bowl/test/bowl_0067.off",
+      "baseline_superquadric": {
+        "final_loss": 2.8897015277696894,
+        "assignment_entropy": 0.0077713366651215665,
+        "proxy_metrics": {
+          "chamfer": 0.0015681713316705232,
+          "coverage@0.05": 0.9961985688729875,
+          "coverage@0.1": 0.9997763864042933,
+          "n_primitives": 16,
+          "compression_ratio": 279.5
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0015511604772205038,
+          "coverage@0.05": 0.9906666666666667,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.185514083564384,
+        "assignment_entropy": 0.01097810762903911,
+        "proxy_metrics": {
+          "chamfer": 0.0017710463528347493,
+          "coverage@0.05": 0.9854651162790697,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 279.5
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0016196210725506126,
+          "coverage@0.05": 0.9911666666666666,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superfrustum": {
+        "final_loss": 0.7198820201184898,
+        "assignment_entropy": 0.035079975754213975,
+        "proxy_metrics": {
+          "chamfer": 0.004942495413700786,
+          "coverage@0.05": 0.9116726296958855,
+          "coverage@0.1": 0.9986583184257602,
+          "n_primitives": 16,
+          "compression_ratio": 279.5
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.004893922826461562,
+          "coverage@0.05": 0.9253333333333333,
+          "coverage@0.1": 0.9943333333333333,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      }
+    },
+    {
+      "object": "bowl_0068",
+      "n_gaussians": 14861,
+      "feature_dim": 3,
+      "source_mesh": "data/modelnet40/bowl/test/bowl_0068.off",
+      "baseline_superquadric": {
+        "final_loss": 2.8983431758756275,
+        "assignment_entropy": 0.008960050333064034,
+        "proxy_metrics": {
+          "chamfer": 0.001424364441756954,
+          "coverage@0.05": 0.9405274488697524,
+          "coverage@0.1": 0.9994617868675996,
+          "n_primitives": 16,
+          "compression_ratio": 232.25
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0017770034393247052,
+          "coverage@0.05": 0.8815,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.1141829478190286,
+        "assignment_entropy": 0.010358484930670698,
+        "proxy_metrics": {
+          "chamfer": 0.0014191969464044793,
+          "coverage@0.05": 0.9235737351991389,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 232.25
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.0015021265891595656,
+          "coverage@0.05": 0.9061666666666667,
+          "coverage@0.1": 1.0,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      },
+      "gaussian_aware_superfrustum": {
+        "final_loss": 0.7223275154339542,
+        "assignment_entropy": 0.04027641438955887,
+        "proxy_metrics": {
+          "chamfer": 0.0040656770606436535,
+          "coverage@0.05": 0.8942411194833154,
+          "coverage@0.1": 0.998654467168999,
+          "n_primitives": 16,
+          "compression_ratio": 232.25
+        },
+        "source_mesh_metrics": {
+          "chamfer": 0.004049215132125335,
+          "coverage@0.05": 0.8771666666666667,
+          "coverage@0.1": 0.996,
+          "n_primitives": 16,
+          "compression_ratio": 375.0
+        }
+      }
+    }
+  ]
+}

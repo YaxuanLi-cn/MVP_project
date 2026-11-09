@@ -1,0 +1,14 @@
+# Downloaded datasets and generated binary data stay local.
+data/*
+!data/.gitkeep
+!data/README.md
+
+# Generated binary arrays and caches.
+artifacts/*.npz
+artifacts/*.npy
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+*.egg-info/
+

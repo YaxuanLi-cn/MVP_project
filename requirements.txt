@@ -1,0 +1,2 @@
+numpy>=1.24
+# Optional: scipy>=1.10 enables future differentiable/least-squares refinements.

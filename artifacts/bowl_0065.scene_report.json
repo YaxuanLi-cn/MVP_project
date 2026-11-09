@@ -1,0 +1,102 @@
+{
+  "cloud": "artifacts/bowl_0065.npz",
+  "primitive_file": "artifacts/bowl_0065.scene_primitives.json",
+  "fit_report": {
+    "method": "gaussian-aware",
+    "iterations": 10,
+    "final_loss": 1.9980275707151445,
+    "losses": [
+      {
+        "data": 2.081470019389252,
+        "compactness": 0.0017548526459679782,
+        "overlap": 2.5698042781558743,
+        "entropy": 0.014495149692098136,
+        "total": 2.132901202005289
+      },
+      {
+        "data": 2.0535889642792804,
+        "compactness": 0.0017948193135006426,
+        "overlap": 2.5785282115264967,
+        "entropy": 0.012764623399378238,
+        "total": 2.1051954248960802
+      },
+      {
+        "data": 2.028423406932564,
+        "compactness": 0.0018395723508822627,
+        "overlap": 2.6259047721495894,
+        "entropy": 0.0136401322498573,
+        "total": 2.080978293822574
+      },
+      {
+        "data": 2.0040409641730528,
+        "compactness": 0.0018749312206208773,
+        "overlap": 2.6987673625018385,
+        "entropy": 0.014048211208173633,
+        "total": 2.0580538100475017
+      },
+      {
+        "data": 1.9829038075759793,
+        "compactness": 0.0019216604790462386,
+        "overlap": 2.779713131253329,
+        "entropy": 0.014836191537959198,
+        "total": 2.0385365034106266
+      },
+      {
+        "data": 1.9664163515446094,
+        "compactness": 0.0019432737831398348,
+        "overlap": 2.854382926781174,
+        "entropy": 0.015165931803504602,
+        "total": 2.0235428755558957
+      },
+      {
+        "data": 1.9557111881151905,
+        "compactness": 0.0019573598975128007,
+        "overlap": 2.933487074886493,
+        "entropy": 0.015686062315529128,
+        "total": 2.0144200768108704
+      },
+      {
+        "data": 1.9451515468317526,
+        "compactness": 0.001950668852795422,
+        "overlap": 3.0402326721477837,
+        "entropy": 0.015819858883125263,
+        "total": 2.0059952136517643
+      },
+      {
+        "data": 1.9345554145635548,
+        "compactness": 0.0019354120914941066,
+        "overlap": 3.1584328703829687,
+        "entropy": 0.015218469371976887,
+        "total": 1.997762780213044
+      },
+      {
+        "data": 1.9319887683276762,
+        "compactness": 0.001911003965014838,
+        "overlap": 3.3000291154083987,
+        "entropy": 0.015523616632579888,
+        "total": 1.9980275707151445
+      }
+    ],
+    "assignment_entropy": 0.015523616632579888,
+    "attribute_ablation": {
+      "covariance": true,
+      "orientation": true,
+      "opacity": true
+    }
+  },
+  "scene_metrics": {
+    "n_gaussians": 17576,
+    "n_primitives": 16,
+    "compression_ratio": 1098.5,
+    "scene_bbox": [
+      0.9934157133102417,
+      0.9940395653247833,
+      0.27904754877090454
+    ],
+    "scene_bbox_volume": 0.27555792630384035,
+    "primitive_occupancy_fraction": 1.0,
+    "primitive_center_separation_mean": 0.5622259499064144,
+    "primitive_center_separation_min": 0.11397513137841742,
+    "assignment_entropy": 2.6135726193609408
+  }
+}

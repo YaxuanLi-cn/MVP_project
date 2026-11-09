@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gaussian-primitive-decomp"
+version = "0.1.0"
+description = "Gaussian-aware structural primitive decomposition from pretrained 3DGS"
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[project.optional-dependencies]
+scipy = ["scipy>=1.10"]
+dev = ["pytest>=8"]
+
+[project.scripts]
+gaussian-decomp = "gaussian_decomp.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

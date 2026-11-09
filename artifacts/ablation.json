@@ -1,0 +1,265 @@
+{
+  "input": "artifacts/synthetic.npz",
+  "rows": [
+    {
+      "setting": "positions-only",
+      "report": {
+        "method": "point-cloud-baseline",
+        "iterations": 6,
+        "final_loss": 2.90214531758113,
+        "losses": [
+          {
+            "data": 2.899537180325637,
+            "compactness": 0.008590265671503868,
+            "overlap": 0.1403796015416059,
+            "entropy": 0.02484802614282465,
+            "total": 2.9025165776698993
+          },
+          {
+            "data": 2.899503671399566,
+            "compactness": 0.00845895880230865,
+            "overlap": 0.13673007263004117,
+            "entropy": 0.01304388844381386,
+            "total": 2.902407452028213
+          },
+          {
+            "data": 2.8994873905036673,
+            "compactness": 0.008397917578713504,
+            "overlap": 0.1359590518110862,
+            "entropy": 0.010544357927548341,
+            "total": 2.9023745298914636
+          },
+          {
+            "data": 2.8994440471318037,
+            "compactness": 0.008334157196353284,
+            "overlap": 0.1310824742816515,
+            "entropy": 0.011306196825238054,
+            "total": 2.9022323797613634
+          },
+          {
+            "data": 2.89946883958497,
+            "compactness": 0.008289846003991817,
+            "overlap": 0.12579096889872587,
+            "entropy": 0.0034850215011361135,
+            "total": 2.9021504558830244
+          },
+          {
+            "data": 2.8994746885580676,
+            "compactness": 0.008287694426128528,
+            "overlap": 0.1252437567269877,
+            "entropy": 0.002578994094848445,
+            "total": 2.90214531758113
+          }
+        ],
+        "assignment_entropy": 0.002578994094848445,
+        "attribute_ablation": {
+          "covariance": false,
+          "orientation": false,
+          "opacity": false
+        }
+      },
+      "metrics": {
+        "chamfer": 0.028410176187247227,
+        "coverage@0.05": 0.38333333333333336,
+        "coverage@0.1": 0.65,
+        "n_primitives": 3,
+        "compression_ratio": 80.0
+      }
+    },
+    {
+      "setting": "opacity-only",
+      "report": {
+        "method": "point-cloud-baseline",
+        "iterations": 6,
+        "final_loss": 2.917586588309143,
+        "losses": [
+          {
+            "data": 2.9236786218869653,
+            "compactness": 0.008121229085795763,
+            "overlap": 0.13276271356409797,
+            "entropy": 0.015068955123283332,
+            "total": 2.9264963007399634
+          },
+          {
+            "data": 2.923525769875748,
+            "compactness": 0.007850525534205198,
+            "overlap": 0.13061615176686558,
+            "entropy": 0.00657890595794131,
+            "total": 2.9262951034217695
+          },
+          {
+            "data": 2.914162724514398,
+            "compactness": 0.00771770383428864,
+            "overlap": 0.13500583723473544,
+            "entropy": 0.0019334507209185308,
+            "total": 2.9170171953357786
+          },
+          {
+            "data": 2.9147219301897294,
+            "compactness": 0.007709531639544444,
+            "overlap": 0.13449421863695668,
+            "entropy": 0.0030677326199234386,
+            "total": 2.9175660051952597
+          },
+          {
+            "data": 2.914751808843989,
+            "compactness": 0.007708972088784567,
+            "overlap": 0.13409310120563744,
+            "entropy": 0.003243842672979292,
+            "total": 2.9175878503098778
+          },
+          {
+            "data": 2.914758373044093,
+            "compactness": 0.007708277104883986,
+            "overlap": 0.13370248614763822,
+            "entropy": 0.002918537352806802,
+            "total": 2.917586588309143
+          }
+        ],
+        "assignment_entropy": 0.002918537352806802,
+        "attribute_ablation": {
+          "covariance": false,
+          "orientation": false,
+          "opacity": true
+        }
+      },
+      "metrics": {
+        "chamfer": 0.5354989952786011,
+        "coverage@0.05": 0.37083333333333335,
+        "coverage@0.1": 0.6166666666666667,
+        "n_primitives": 3,
+        "compression_ratio": 80.0
+      }
+    },
+    {
+      "setting": "covariance+orientation",
+      "report": {
+        "method": "gaussian-aware",
+        "iterations": 6,
+        "final_loss": 2.223492012196381,
+        "losses": [
+          {
+            "data": 2.233605978993785,
+            "compactness": 0.009592324314879065,
+            "overlap": 0.14060257200806628,
+            "entropy": 0.018671024507852244,
+            "total": 2.236609876920244
+          },
+          {
+            "data": 2.226808492135778,
+            "compactness": 0.009495805537263279,
+            "overlap": 0.1377916362938341,
+            "entropy": 0.018056259755491633,
+            "total": 2.2297542409724
+          },
+          {
+            "data": 2.22338349407906,
+            "compactness": 0.009423182066297739,
+            "overlap": 0.1307644453110753,
+            "entropy": 0.008638845708195472,
+            "total": 2.2261872466266075
+          },
+          {
+            "data": 2.2217692060099408,
+            "compactness": 0.009408694035728466,
+            "overlap": 0.12736192010670436,
+            "entropy": 0.013740741679181382,
+            "total": 2.224504618292789
+          },
+          {
+            "data": 2.221005749124721,
+            "compactness": 0.009378853789616344,
+            "overlap": 0.12414499176520383,
+            "entropy": 0.009227811634447459,
+            "total": 2.2236762260358174
+          },
+          {
+            "data": 2.22086442505783,
+            "compactness": 0.009368258103388507,
+            "overlap": 0.12201109882416075,
+            "entropy": 0.012410364105324893,
+            "total": 2.223492012196381
+          }
+        ],
+        "assignment_entropy": 0.012410364105324893,
+        "attribute_ablation": {
+          "covariance": true,
+          "orientation": true,
+          "opacity": false
+        }
+      },
+      "metrics": {
+        "chamfer": 0.03330094779760632,
+        "coverage@0.05": 0.3541666666666667,
+        "coverage@0.1": 0.625,
+        "n_primitives": 3,
+        "compression_ratio": 80.0
+      }
+    },
+    {
+      "setting": "all-gaussian-attributes",
+      "report": {
+        "method": "gaussian-aware",
+        "iterations": 6,
+        "final_loss": 2.2626087507236026,
+        "losses": [
+          {
+            "data": 2.2735565638096364,
+            "compactness": 0.009063715173227625,
+            "overlap": 0.13287539810897833,
+            "entropy": 0.015864072953854037,
+            "total": 2.2763953460752804
+          },
+          {
+            "data": 2.2662151572755067,
+            "compactness": 0.008824826634291195,
+            "overlap": 0.12899433439024763,
+            "entropy": 0.011525833030055003,
+            "total": 2.2689715404959974
+          },
+          {
+            "data": 2.264357742212559,
+            "compactness": 0.00878582460633756,
+            "overlap": 0.12553117651694348,
+            "entropy": 0.010049806783173389,
+            "total": 2.2670440822350244
+          },
+          {
+            "data": 2.2611534617217304,
+            "compactness": 0.00878188031241924,
+            "overlap": 0.12510264922824116,
+            "entropy": 0.006149822160723112,
+            "total": 2.2638311523125436
+          },
+          {
+            "data": 2.260027443578595,
+            "compactness": 0.008779931940167159,
+            "overlap": 0.12488353519711638,
+            "entropy": 0.003147330490980889,
+            "total": 2.262700712921341
+          },
+          {
+            "data": 2.259942551868605,
+            "compactness": 0.008780205301393139,
+            "overlap": 0.12452973744847336,
+            "entropy": 0.00363434786319294,
+            "total": 2.2626087507236026
+          }
+        ],
+        "assignment_entropy": 0.00363434786319294,
+        "attribute_ablation": {
+          "covariance": true,
+          "orientation": true,
+          "opacity": true
+        }
+      },
+      "metrics": {
+        "chamfer": 2.2838883763712174,
+        "coverage@0.05": 0.3375,
+        "coverage@0.1": 0.6,
+        "n_primitives": 3,
+        "compression_ratio": 80.0
+      }
+    }
+  ]
+}
