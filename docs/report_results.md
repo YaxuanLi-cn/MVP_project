@@ -70,3 +70,39 @@ large-room layout; their benefit is clearer in the object source-mesh benchmark.
 The scene result demonstrates the full-scene extension, while semantic part
 purity is not reported because this PLY release does not include per-Gaussian
 part labels.
+
+## ShapeSplat-Part structural consistency
+
+To measure structural consistency directly, we used the real ShapeSplat-Part
+release (ShapeNet Part point clouds with normals and per-point part IDs). The
+benchmark contains 50 objects from five categories (10 airplane, 10 car, 10
+chair, 10 lamp, and 10 table), with eight fitted Superquadrics per object and
+12 refinement iterations. Since the ShapeSplat-Part release provides annotated
+point clouds rather than a matching Gaussian PLY, each point was converted to a
+Gaussian with an anisotropic covariance aligned to its surface normal. This
+protocol evaluates the consistency of the primitive decomposition with known
+parts; it should not be interpreted as a reconstruction benchmark for original
+3DGS covariance values.
+
+| Method | Objects | Part purity ↑ | Boundary leakage ↓ | NMI ↑ |
+|---|---:|---:|---:|---:|
+| Center-only / Superquadric | 50 | **0.8360 ± 0.0920** | **0.1640 ± 0.0920** | **0.3657 ± 0.1549** |
+| Gaussian-aware / Superquadric | 50 | 0.8241 ± 0.1040 | 0.1759 ± 0.1040 | 0.3518 ± 0.1488 |
+
+The Gaussian-aware covariance proxy does not improve semantic part consistency
+in this experiment, even though Gaussian-aware Superquadric improves source-mesh
+Chamfer on the larger ShapeSplat object benchmark. This distinction is useful:
+local extent information can improve geometric surface fitting without making
+primitive boundaries align better with semantic part boundaries. Category-level
+results show Gaussian-aware consistency improves on lamp and table, while
+airplane, car and chair favor the center-only baseline.
+
+The complete per-object annotations result is in
+`artifacts/shapesplat_part_consistency.json`. Re-download the data with:
+
+```bash
+python scripts/download_shapesplat_part.py
+python scripts/run_shapesplat_part.py \
+  --categories airplane,car,chair,lamp,table \
+  --objects-per-category 10 --n-primitives 8 --iterations 12
+```

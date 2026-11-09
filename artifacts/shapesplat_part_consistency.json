@@ -1,0 +1,2430 @@
+{
+  "categories": [
+    "airplane",
+    "bag",
+    "cap",
+    "car",
+    "chair",
+    "earphone",
+    "guitar",
+    "knife",
+    "lamp",
+    "laptop",
+    "motorbike",
+    "mug",
+    "pistol",
+    "rocket",
+    "table"
+  ],
+  "settings": {
+    "root": "data/shapesplat_part/extracted/shapenetcore_partanno_segmentation_benchmark_v0_normal",
+    "categories": "airplane,car,chair,lamp,table",
+    "objects_per_category": 10,
+    "n_primitives": 8,
+    "iterations": 12,
+    "output": "artifacts/shapesplat_part_consistency.json"
+  },
+  "n_objects": 50,
+  "rows": [
+    {
+      "category": "airplane",
+      "object": "1021a0914a7207aff927ed529ad90a11",
+      "n_points": 2488,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.798161762054748,
+        "metrics": {
+          "purity": 0.8002411575562701,
+          "boundary_leakage": 0.1997588424437299,
+          "nmi": 0.5183968870753094,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 2,
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 1,
+            "7": 1
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_1021a0914a7207aff927ed529ad90a11_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.768135850683884,
+        "metrics": {
+          "purity": 0.819935691318328,
+          "boundary_leakage": 0.180064308681672,
+          "nmi": 0.46680210687176144,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 2,
+            "1": 0,
+            "2": 1,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_1021a0914a7207aff927ed529ad90a11_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "103c9e43cdf6501c62b600da24e0965",
+      "n_points": 2632,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.9289081612971475,
+        "metrics": {
+          "purity": 0.7146656534954408,
+          "boundary_leakage": 0.28533434650455924,
+          "nmi": 0.3605882713195287,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 1,
+            "4": 2,
+            "5": 1,
+            "6": 0,
+            "7": 1
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_103c9e43cdf6501c62b600da24e0965_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.9103490877624116,
+        "metrics": {
+          "purity": 0.685790273556231,
+          "boundary_leakage": 0.314209726443769,
+          "nmi": 0.34232519684072027,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 0,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 2,
+            "5": 1,
+            "6": 0,
+            "7": 1
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_103c9e43cdf6501c62b600da24e0965_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "105f7f51e4140ee4b6b87e72ead132ed",
+      "n_points": 2619,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.852688614375096,
+        "metrics": {
+          "purity": 0.7590683466972127,
+          "boundary_leakage": 0.24093165330278732,
+          "nmi": 0.4489996483332636,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_105f7f51e4140ee4b6b87e72ead132ed_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.763413789909185,
+        "metrics": {
+          "purity": 0.7571592210767468,
+          "boundary_leakage": 0.24284077892325315,
+          "nmi": 0.45272791478295127,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 2,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 0
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_105f7f51e4140ee4b6b87e72ead132ed_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "1066b65c30d153e04c3a35cee92bb95b",
+      "n_points": 2501,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.8632818027051017,
+        "metrics": {
+          "purity": 0.8308676529388245,
+          "boundary_leakage": 0.1691323470611755,
+          "nmi": 0.5187591962649271,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 2,
+            "7": 3
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_1066b65c30d153e04c3a35cee92bb95b_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.8578903909955484,
+        "metrics": {
+          "purity": 0.7708916433426629,
+          "boundary_leakage": 0.22910835665733706,
+          "nmi": 0.43574298300796116,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 1,
+            "1": 1,
+            "2": 2,
+            "3": 0,
+            "4": 0,
+            "5": 3,
+            "6": 2,
+            "7": 0
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_1066b65c30d153e04c3a35cee92bb95b_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "106dfe858cb8fbc2afc6b80d80a265ab",
+      "n_points": 2581,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.8354066312682082,
+        "metrics": {
+          "purity": 0.769469197985277,
+          "boundary_leakage": 0.23053080201472298,
+          "nmi": 0.4210151364443455,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 2,
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 2
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_106dfe858cb8fbc2afc6b80d80a265ab_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.6605035937594637,
+        "metrics": {
+          "purity": 0.6815187911662146,
+          "boundary_leakage": 0.31848120883378533,
+          "nmi": 0.3602152021822926,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 2,
+            "1": 3,
+            "2": 1,
+            "3": 2,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 0
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_106dfe858cb8fbc2afc6b80d80a265ab_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "10aa040f470500c6a66ef8df4909ded9",
+      "n_points": 2687,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.718216462923867,
+        "metrics": {
+          "purity": 0.8291775213993301,
+          "boundary_leakage": 0.17082247860066987,
+          "nmi": 0.4039815780793845,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 1,
+            "6": 0,
+            "7": 2
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10aa040f470500c6a66ef8df4909ded9_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.7497923285688985,
+        "metrics": {
+          "purity": 0.847785634536658,
+          "boundary_leakage": 0.15221436546334202,
+          "nmi": 0.41098923318092007,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 1,
+            "1": 1,
+            "2": 0,
+            "3": 0,
+            "4": 1,
+            "5": 0,
+            "6": 0,
+            "7": 2
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10aa040f470500c6a66ef8df4909ded9_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "10af5de930178a161596c26b5af806fe",
+      "n_points": 2474,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.813619015714993,
+        "metrics": {
+          "purity": 0.8116410670978172,
+          "boundary_leakage": 0.18835893290218267,
+          "nmi": 0.5152215864675759,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 2,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 2
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10af5de930178a161596c26b5af806fe_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.757454996145101,
+        "metrics": {
+          "purity": 0.7037186742118028,
+          "boundary_leakage": 0.29628132578819727,
+          "nmi": 0.40893184517604747,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 2,
+            "1": 0,
+            "2": 0,
+            "3": 1,
+            "4": 0,
+            "5": 0,
+            "6": 0,
+            "7": 2
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10af5de930178a161596c26b5af806fe_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "10c7cdfdffe2243b88a89a28f04ce622",
+      "n_points": 2502,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.591489401205114,
+        "metrics": {
+          "purity": 0.8085531574740208,
+          "boundary_leakage": 0.1914468425259792,
+          "nmi": 0.35977958914950225,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 2,
+            "1": 0,
+            "2": 2,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 1
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10c7cdfdffe2243b88a89a28f04ce622_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.4470460576124413,
+        "metrics": {
+          "purity": 0.7354116706634692,
+          "boundary_leakage": 0.26458832933653076,
+          "nmi": 0.29864642608640396,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 0,
+            "1": 0,
+            "2": 0,
+            "3": 0,
+            "4": 0,
+            "5": 0,
+            "6": 1,
+            "7": 1
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10c7cdfdffe2243b88a89a28f04ce622_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "10cfc2090a2ade124c3a35cee92bb95b",
+      "n_points": 2487,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.8263658832699474,
+        "metrics": {
+          "purity": 0.7985524728588661,
+          "boundary_leakage": 0.2014475271411339,
+          "nmi": 0.4824062557443213,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 3,
+            "1": 0,
+            "2": 2,
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 3,
+            "7": 3
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10cfc2090a2ade124c3a35cee92bb95b_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.554126859722544,
+        "metrics": {
+          "purity": 0.6996381182147166,
+          "boundary_leakage": 0.30036188178528345,
+          "nmi": 0.39488551266000105,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 3,
+            "1": 0,
+            "2": 2,
+            "3": 1,
+            "4": 1,
+            "5": 0,
+            "6": 3,
+            "7": 3
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10cfc2090a2ade124c3a35cee92bb95b_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "airplane",
+      "object": "10db820f0e20396a492c7ca609cb0182",
+      "n_points": 2598,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.8820766791630725,
+        "metrics": {
+          "purity": 0.8010007698229408,
+          "boundary_leakage": 0.19899923017705928,
+          "nmi": 0.46965130542454336,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 3,
+            "1": 0,
+            "2": 2,
+            "3": 1,
+            "4": 0,
+            "5": 3,
+            "6": 1,
+            "7": 3
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10db820f0e20396a492c7ca609cb0182_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.7360419935677163,
+        "metrics": {
+          "purity": 0.6778290993071594,
+          "boundary_leakage": 0.32217090069284066,
+          "nmi": 0.3640469526060851,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 1,
+            "1": 0,
+            "2": 2,
+            "3": 1,
+            "4": 0,
+            "5": 1,
+            "6": 1,
+            "7": 0
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_airplane_10db820f0e20396a492c7ca609cb0182_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "10247b51a42b41603ffe0e5069bf1eb5",
+      "n_points": 2802,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.912841755359937,
+        "metrics": {
+          "purity": 0.7740899357601713,
+          "boundary_leakage": 0.2259100642398287,
+          "nmi": 0.09052036496890234,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_10247b51a42b41603ffe0e5069bf1eb5_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.449192092480907,
+        "metrics": {
+          "purity": 0.7740899357601713,
+          "boundary_leakage": 0.2259100642398287,
+          "nmi": 0.06733066280069008,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_10247b51a42b41603ffe0e5069bf1eb5_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "10555502fa7b3027283ffcfc40c29975",
+      "n_points": 2864,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.935610039013395,
+        "metrics": {
+          "purity": 0.7967877094972067,
+          "boundary_leakage": 0.2032122905027933,
+          "nmi": 0.11620207504570385,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_10555502fa7b3027283ffcfc40c29975_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.569881495623208,
+        "metrics": {
+          "purity": 0.7967877094972067,
+          "boundary_leakage": 0.2032122905027933,
+          "nmi": 0.11243481245832171,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_10555502fa7b3027283ffcfc40c29975_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "107699ca67fcdf3fea999fe4ffdc2504",
+      "n_points": 2869,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.933864123676142,
+        "metrics": {
+          "purity": 0.7905193447194144,
+          "boundary_leakage": 0.20948065528058557,
+          "nmi": 0.0885000111914793,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_107699ca67fcdf3fea999fe4ffdc2504_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.5581700901209183,
+        "metrics": {
+          "purity": 0.7905193447194144,
+          "boundary_leakage": 0.20948065528058557,
+          "nmi": 0.07300232609172128,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_107699ca67fcdf3fea999fe4ffdc2504_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "1079efee042629d4ce28f0f1b509eda",
+      "n_points": 2781,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.9281897592363997,
+        "metrics": {
+          "purity": 0.7295936713412442,
+          "boundary_leakage": 0.27040632865875586,
+          "nmi": 0.1099306540831532,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 10,
+            "5": 10,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_1079efee042629d4ce28f0f1b509eda_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.502338193706287,
+        "metrics": {
+          "purity": 0.7080186983099604,
+          "boundary_leakage": 0.29198130169003955,
+          "nmi": 0.07770244381497507,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_1079efee042629d4ce28f0f1b509eda_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "10e15fd62309a13d1812324a4c0d910",
+      "n_points": 2730,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.911868609104868,
+        "metrics": {
+          "purity": 0.6725274725274726,
+          "boundary_leakage": 0.3274725274725275,
+          "nmi": 0.11866815394428357,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 9,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 9,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_10e15fd62309a13d1812324a4c0d910_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.417917609771947,
+        "metrics": {
+          "purity": 0.6706959706959706,
+          "boundary_leakage": 0.3293040293040293,
+          "nmi": 0.12184346610169657,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 9,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 9,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_10e15fd62309a13d1812324a4c0d910_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "1137cd58d6a45c6659a47b1880958de9",
+      "n_points": 2868,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.9320871032558364,
+        "metrics": {
+          "purity": 0.7158298465829847,
+          "boundary_leakage": 0.28417015341701535,
+          "nmi": 0.1257380527391881,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_1137cd58d6a45c6659a47b1880958de9_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.5874976390926663,
+        "metrics": {
+          "purity": 0.7158298465829847,
+          "boundary_leakage": 0.28417015341701535,
+          "nmi": 0.11342325714398072,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 11,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_1137cd58d6a45c6659a47b1880958de9_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "1198255e3d20d2f323f3ca54768fe2ee",
+      "n_points": 2677,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.8861908103458056,
+        "metrics": {
+          "purity": 0.6593201344788943,
+          "boundary_leakage": 0.34067986552110574,
+          "nmi": 0.29502091400173835,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 10,
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_1198255e3d20d2f323f3ca54768fe2ee_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.2810241142534116,
+        "metrics": {
+          "purity": 0.6320508031378409,
+          "boundary_leakage": 0.36794919686215916,
+          "nmi": 0.28065652181726203,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 10,
+            "1": 10,
+            "2": 10,
+            "3": 10,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_1198255e3d20d2f323f3ca54768fe2ee_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "12796524ffbadb755400f0dc3171dfcd",
+      "n_points": 2560,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.9428547248305366,
+        "metrics": {
+          "purity": 0.778125,
+          "boundary_leakage": 0.221875,
+          "nmi": 0.2297645943464894,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_12796524ffbadb755400f0dc3171dfcd_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.395218246271568,
+        "metrics": {
+          "purity": 0.78125,
+          "boundary_leakage": 0.21875,
+          "nmi": 0.23930859943635838,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 10,
+            "3": 10,
+            "4": 10,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_12796524ffbadb755400f0dc3171dfcd_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "128ad72f92a3e96db96212c8f6cd06e",
+      "n_points": 2566,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.8567661619790066,
+        "metrics": {
+          "purity": 0.6718628215120811,
+          "boundary_leakage": 0.32813717848791896,
+          "nmi": 0.29226635020123315,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 10,
+            "1": 10,
+            "2": 10,
+            "3": 11,
+            "4": 11,
+            "5": 10,
+            "6": 10,
+            "7": 8
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_128ad72f92a3e96db96212c8f6cd06e_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.294151020318343,
+        "metrics": {
+          "purity": 0.6360093530787218,
+          "boundary_leakage": 0.36399064692127825,
+          "nmi": 0.24262358884117743,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 10,
+            "1": 10,
+            "2": 10,
+            "3": 11,
+            "4": 11,
+            "5": 10,
+            "6": 10,
+            "7": 8
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_128ad72f92a3e96db96212c8f6cd06e_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "car",
+      "object": "12cd99c20b1a5a932e877e82c90c24d",
+      "n_points": 2762,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.9148261706237815,
+        "metrics": {
+          "purity": 0.6752353367125271,
+          "boundary_leakage": 0.32476466328747283,
+          "nmi": 0.21673209885713787,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 8,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_12cd99c20b1a5a932e877e82c90c24d_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.4195659605595625,
+        "metrics": {
+          "purity": 0.666545981173063,
+          "boundary_leakage": 0.333454018826937,
+          "nmi": 0.1978841771482446,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 11,
+            "1": 11,
+            "2": 11,
+            "3": 8,
+            "4": 11,
+            "5": 11,
+            "6": 11,
+            "7": 11
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_car_12cd99c20b1a5a932e877e82c90c24d_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "1015e71a0d21b127de03ab2a27ba7531",
+      "n_points": 2750,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.882148558240038,
+        "metrics": {
+          "purity": 0.8650909090909091,
+          "boundary_leakage": 0.13490909090909092,
+          "nmi": 0.49821869114040246,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 13,
+            "2": 14,
+            "3": 12,
+            "4": 12,
+            "5": 14,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1015e71a0d21b127de03ab2a27ba7531_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.209143254583455,
+        "metrics": {
+          "purity": 0.8341818181818181,
+          "boundary_leakage": 0.1658181818181818,
+          "nmi": 0.4719473902087209,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 13,
+            "2": 14,
+            "3": 12,
+            "4": 12,
+            "5": 14,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1015e71a0d21b127de03ab2a27ba7531_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "1016f4debe988507589aae130c1f06fb",
+      "n_points": 2704,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.894369608112294,
+        "metrics": {
+          "purity": 0.7374260355029586,
+          "boundary_leakage": 0.2625739644970414,
+          "nmi": 0.37339310574434237,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 13,
+            "1": 12,
+            "2": 13,
+            "3": 13,
+            "4": 13,
+            "5": 14,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1016f4debe988507589aae130c1f06fb_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.3481335292386936,
+        "metrics": {
+          "purity": 0.7355769230769231,
+          "boundary_leakage": 0.2644230769230769,
+          "nmi": 0.3501547691487149,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 13,
+            "1": 12,
+            "2": 13,
+            "3": 13,
+            "4": 13,
+            "5": 14,
+            "6": 12,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1016f4debe988507589aae130c1f06fb_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "1022fe7dd03f6a4d4d5ad9f13ac9f4e7",
+      "n_points": 2751,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.901589863375083,
+        "metrics": {
+          "purity": 0.8378771355870592,
+          "boundary_leakage": 0.16212286441294074,
+          "nmi": 0.509330737827348,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 13,
+            "1": 12,
+            "2": 14,
+            "3": 12,
+            "4": 14,
+            "5": 12,
+            "6": 12,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1022fe7dd03f6a4d4d5ad9f13ac9f4e7_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.4461894379181284,
+        "metrics": {
+          "purity": 0.8575063613231552,
+          "boundary_leakage": 0.14249363867684478,
+          "nmi": 0.5323353831794225,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 13,
+            "1": 12,
+            "2": 14,
+            "3": 12,
+            "4": 14,
+            "5": 12,
+            "6": 12,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1022fe7dd03f6a4d4d5ad9f13ac9f4e7_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "1028b32dc1873c2afe26a3ac360dbd4",
+      "n_points": 2674,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.8483986297868755,
+        "metrics": {
+          "purity": 0.8294689603590127,
+          "boundary_leakage": 0.17053103964098731,
+          "nmi": 0.4960949399952722,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 14,
+            "1": 13,
+            "2": 13,
+            "3": 14,
+            "4": 12,
+            "5": 13,
+            "6": 12,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1028b32dc1873c2afe26a3ac360dbd4_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.222256006794898,
+        "metrics": {
+          "purity": 0.8320867614061331,
+          "boundary_leakage": 0.16791323859386686,
+          "nmi": 0.5078055475741061,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 14,
+            "1": 13,
+            "2": 13,
+            "3": 14,
+            "4": 12,
+            "5": 13,
+            "6": 12,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1028b32dc1873c2afe26a3ac360dbd4_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "103a60f3b09107df2da1314e036b435e",
+      "n_points": 2787,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.905119286319761,
+        "metrics": {
+          "purity": 0.829924650161464,
+          "boundary_leakage": 0.17007534983853603,
+          "nmi": 0.408822836486029,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 13,
+            "2": 14,
+            "3": 14,
+            "4": 14,
+            "5": 14,
+            "6": 12,
+            "7": 12
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_103a60f3b09107df2da1314e036b435e_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.6208430797064888,
+        "metrics": {
+          "purity": 0.824183710082526,
+          "boundary_leakage": 0.175816289917474,
+          "nmi": 0.3937670782903476,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 13,
+            "2": 14,
+            "3": 14,
+            "4": 14,
+            "5": 14,
+            "6": 12,
+            "7": 12
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_103a60f3b09107df2da1314e036b435e_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "103c31671f8c0b1467bb14b25f99796e",
+      "n_points": 2349,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.7647073819828636,
+        "metrics": {
+          "purity": 0.8633461047254151,
+          "boundary_leakage": 0.1366538952745849,
+          "nmi": 0.49875828123539523,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 14,
+            "1": 14,
+            "2": 12,
+            "3": 12,
+            "4": 13,
+            "5": 12,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_103c31671f8c0b1467bb14b25f99796e_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.7946604810192348,
+        "metrics": {
+          "purity": 0.8348233290762026,
+          "boundary_leakage": 0.1651766709237974,
+          "nmi": 0.49240345233942384,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 14,
+            "1": 14,
+            "2": 12,
+            "3": 12,
+            "4": 13,
+            "5": 12,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_103c31671f8c0b1467bb14b25f99796e_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "1055f78d441d170c4f3443b22038d340",
+      "n_points": 2747,
+      "n_parts": 4,
+      "baseline_superquadric": {
+        "final_loss": 2.888873738045725,
+        "metrics": {
+          "purity": 0.7746632690207499,
+          "boundary_leakage": 0.22533673097925008,
+          "nmi": 0.4481538013796205,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 13,
+            "1": 15,
+            "2": 14,
+            "3": 12,
+            "4": 14,
+            "5": 13,
+            "6": 14,
+            "7": 15
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1055f78d441d170c4f3443b22038d340_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.2718534822977925,
+        "metrics": {
+          "purity": 0.7702948671277757,
+          "boundary_leakage": 0.22970513287222424,
+          "nmi": 0.44029151347123974,
+          "n_parts": 4,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 13,
+            "1": 15,
+            "2": 14,
+            "3": 12,
+            "4": 14,
+            "5": 13,
+            "6": 14,
+            "7": 15
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_1055f78d441d170c4f3443b22038d340_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "106c7f10c5bf5bd5f51f77a6d7299806",
+      "n_points": 2751,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.898230994810231,
+        "metrics": {
+          "purity": 0.8873137041075972,
+          "boundary_leakage": 0.11268629589240277,
+          "nmi": 0.3165418544800183,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 13,
+            "2": 13,
+            "3": 12,
+            "4": 13,
+            "5": 13,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_106c7f10c5bf5bd5f51f77a6d7299806_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.30464694696387,
+        "metrics": {
+          "purity": 0.8676844783715013,
+          "boundary_leakage": 0.13231552162849872,
+          "nmi": 0.2925339091767532,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 13,
+            "2": 13,
+            "3": 12,
+            "4": 13,
+            "5": 13,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_106c7f10c5bf5bd5f51f77a6d7299806_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "107caefdad02cf1c8ab8e68cb52baa6a",
+      "n_points": 2735,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.880346005423396,
+        "metrics": {
+          "purity": 0.8727605118829982,
+          "boundary_leakage": 0.12723948811700184,
+          "nmi": 0.520890730042183,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 14,
+            "2": 14,
+            "3": 13,
+            "4": 13,
+            "5": 12,
+            "6": 14,
+            "7": 12
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_107caefdad02cf1c8ab8e68cb52baa6a_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.173532649021391,
+        "metrics": {
+          "purity": 0.843144424131627,
+          "boundary_leakage": 0.15685557586837295,
+          "nmi": 0.4562100050742644,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 12,
+            "1": 14,
+            "2": 14,
+            "3": 13,
+            "4": 13,
+            "5": 12,
+            "6": 14,
+            "7": 14
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_107caefdad02cf1c8ab8e68cb52baa6a_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "chair",
+      "object": "108b9cb292fd811cf51f77a6d7299806",
+      "n_points": 1620,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.18559083670203,
+        "metrics": {
+          "purity": 0.9419753086419753,
+          "boundary_leakage": 0.05802469135802468,
+          "nmi": 0.5981894291234112,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 14,
+            "1": 13,
+            "2": 14,
+            "3": 12,
+            "4": 14,
+            "5": 13,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_108b9cb292fd811cf51f77a6d7299806_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.279154718152414,
+        "metrics": {
+          "purity": 0.9395061728395062,
+          "boundary_leakage": 0.06049382716049383,
+          "nmi": 0.5902885708177126,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 14,
+            "1": 13,
+            "2": 14,
+            "3": 12,
+            "4": 14,
+            "5": 13,
+            "6": 13,
+            "7": 13
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_chair_108b9cb292fd811cf51f77a6d7299806_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "101d0e7dbd07d8247dfd6bf7196ba84d",
+      "n_points": 2473,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.915490608645326,
+        "metrics": {
+          "purity": 0.895673271330368,
+          "boundary_leakage": 0.10432672866963205,
+          "nmi": 0.5480175043065162,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 24,
+            "2": 25,
+            "3": 25,
+            "4": 27,
+            "5": 24,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_101d0e7dbd07d8247dfd6bf7196ba84d_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.4152753093237305,
+        "metrics": {
+          "purity": 0.8794985847149211,
+          "boundary_leakage": 0.12050141528507888,
+          "nmi": 0.5300297420933368,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 24,
+            "2": 25,
+            "3": 25,
+            "4": 27,
+            "5": 24,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_101d0e7dbd07d8247dfd6bf7196ba84d_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "102273fdf8d1b90041fbc1e2da054acb",
+      "n_points": 1992,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.870458846102565,
+        "metrics": {
+          "purity": 0.8810240963855421,
+          "boundary_leakage": 0.11897590361445783,
+          "nmi": 0.515050566483877,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 27,
+            "1": 25,
+            "2": 24,
+            "3": 27,
+            "4": 25,
+            "5": 27,
+            "6": 25,
+            "7": 24
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_102273fdf8d1b90041fbc1e2da054acb_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.8293360211157812,
+        "metrics": {
+          "purity": 0.8770080321285141,
+          "boundary_leakage": 0.12299196787148596,
+          "nmi": 0.5087481360576812,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 27,
+            "1": 25,
+            "2": 24,
+            "3": 27,
+            "4": 25,
+            "5": 25,
+            "6": 25,
+            "7": 24
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_102273fdf8d1b90041fbc1e2da054acb_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "107b8c870eade2481735ea0e092a805a",
+      "n_points": 2663,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.9696708514294374,
+        "metrics": {
+          "purity": 0.9722117912129178,
+          "boundary_leakage": 0.027788208787082245,
+          "nmi": 0.36790987565873506,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 25,
+            "3": 26,
+            "4": 25,
+            "5": 25,
+            "6": 25,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_107b8c870eade2481735ea0e092a805a_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.9756673594933252,
+        "metrics": {
+          "purity": 0.9722117912129178,
+          "boundary_leakage": 0.027788208787082245,
+          "nmi": 0.3628525850401323,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 25,
+            "3": 26,
+            "4": 25,
+            "5": 25,
+            "6": 25,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_107b8c870eade2481735ea0e092a805a_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "108a5262552050dfa9370719b830fc2c",
+      "n_points": 2580,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.957064570449962,
+        "metrics": {
+          "purity": 0.9062015503875969,
+          "boundary_leakage": 0.0937984496124031,
+          "nmi": 0.5366552480308956,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 27,
+            "1": 27,
+            "2": 25,
+            "3": 27,
+            "4": 24,
+            "5": 25,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_108a5262552050dfa9370719b830fc2c_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.360662680842166,
+        "metrics": {
+          "purity": 0.8945736434108527,
+          "boundary_leakage": 0.10542635658914731,
+          "nmi": 0.5187623295362965,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 27,
+            "1": 27,
+            "2": 25,
+            "3": 27,
+            "4": 24,
+            "5": 25,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_108a5262552050dfa9370719b830fc2c_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "10ba42fc70f16d7f41d86c17c15247b0",
+      "n_points": 2912,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.9505020490877687,
+        "metrics": {
+          "purity": 0.6768543956043956,
+          "boundary_leakage": 0.3231456043956044,
+          "nmi": 0.15833928693739488,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 24,
+            "3": 25,
+            "4": 25,
+            "5": 25,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_10ba42fc70f16d7f41d86c17c15247b0_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.3408279899308786,
+        "metrics": {
+          "purity": 0.7084478021978022,
+          "boundary_leakage": 0.2915521978021978,
+          "nmi": 0.18561012795368734,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 24,
+            "3": 25,
+            "4": 25,
+            "5": 25,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_10ba42fc70f16d7f41d86c17c15247b0_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "1112f253e122dc8273111597f45b8227",
+      "n_points": 2631,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.8946456655531274,
+        "metrics": {
+          "purity": 0.814139110604333,
+          "boundary_leakage": 0.18586088939566706,
+          "nmi": 0.3832384790291185,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 27,
+            "1": 25,
+            "2": 25,
+            "3": 24,
+            "4": 25,
+            "5": 24,
+            "6": 27,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_1112f253e122dc8273111597f45b8227_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.14117988937338,
+        "metrics": {
+          "purity": 0.9213226909920182,
+          "boundary_leakage": 0.07867730900798174,
+          "nmi": 0.5000959864442934,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 27,
+            "1": 25,
+            "2": 25,
+            "3": 24,
+            "4": 25,
+            "5": 24,
+            "6": 27,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_1112f253e122dc8273111597f45b8227_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "112058b3f8c94177d2dba55bc7acf0bc",
+      "n_points": 2412,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.9068150830657307,
+        "metrics": {
+          "purity": 0.9734660033167496,
+          "boundary_leakage": 0.026533996683250415,
+          "nmi": 0.3105321653818738,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 25,
+            "3": 27,
+            "4": 25,
+            "5": 25,
+            "6": 25,
+            "7": 26
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_112058b3f8c94177d2dba55bc7acf0bc_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.247418649063208,
+        "metrics": {
+          "purity": 0.9759535655058044,
+          "boundary_leakage": 0.02404643449419569,
+          "nmi": 0.3153921761173988,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 25,
+            "3": 27,
+            "4": 25,
+            "5": 25,
+            "6": 25,
+            "7": 26
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_112058b3f8c94177d2dba55bc7acf0bc_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "1129a07c75f5a709cf004563556ddb36",
+      "n_points": 1013,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.752671346105464,
+        "metrics": {
+          "purity": 0.945705824284304,
+          "boundary_leakage": 0.054294175715695954,
+          "nmi": 0.6380437029454762,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 24,
+            "2": 27,
+            "3": 27,
+            "4": 25,
+            "5": 24,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_1129a07c75f5a709cf004563556ddb36_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.5697023536417425,
+        "metrics": {
+          "purity": 0.9378084896347483,
+          "boundary_leakage": 0.06219151036525173,
+          "nmi": 0.6162768831314082,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 24,
+            "2": 27,
+            "3": 27,
+            "4": 25,
+            "5": 24,
+            "6": 24,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_1129a07c75f5a709cf004563556ddb36_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "11913615a1b732d435836c728d324152",
+      "n_points": 2653,
+      "n_parts": 1,
+      "baseline_superquadric": {
+        "final_loss": 2.88908521016481,
+        "metrics": {
+          "purity": 1.0,
+          "boundary_leakage": 0.0,
+          "nmi": 0.0,
+          "n_parts": 1,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 25,
+            "3": 25,
+            "4": 25,
+            "5": 25,
+            "6": 25,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_11913615a1b732d435836c728d324152_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.4147805278762497,
+        "metrics": {
+          "purity": 1.0,
+          "boundary_leakage": 0.0,
+          "nmi": 0.0,
+          "n_parts": 1,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 25,
+            "3": 25,
+            "4": 25,
+            "5": 25,
+            "6": 25,
+            "7": 25
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_11913615a1b732d435836c728d324152_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "lamp",
+      "object": "121286f843ab37f71735ea0e092a805a",
+      "n_points": 2472,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.9255094815076657,
+        "metrics": {
+          "purity": 0.9813915857605178,
+          "boundary_leakage": 0.01860841423948221,
+          "nmi": 0.5865163709693904,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 24,
+            "3": 25,
+            "4": 25,
+            "5": 27,
+            "6": 25,
+            "7": 24
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_121286f843ab37f71735ea0e092a805a_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.081216959485596,
+        "metrics": {
+          "purity": 0.9579288025889967,
+          "boundary_leakage": 0.04207119741100323,
+          "nmi": 0.5447078385798187,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 25,
+            "1": 25,
+            "2": 24,
+            "3": 25,
+            "4": 25,
+            "5": 27,
+            "6": 25,
+            "7": 24
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_lamp_121286f843ab37f71735ea0e092a805a_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "1011e1c9812b84d2a9ed7bb5b55809f8",
+      "n_points": 2786,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.8739581847457347,
+        "metrics": {
+          "purity": 0.8797559224694903,
+          "boundary_leakage": 0.1202440775305097,
+          "nmi": 0.32308946991246035,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 47,
+            "3": 47,
+            "4": 47,
+            "5": 48,
+            "6": 47,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_1011e1c9812b84d2a9ed7bb5b55809f8_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.2944113985108867,
+        "metrics": {
+          "purity": 0.8937544867193108,
+          "boundary_leakage": 0.10624551328068914,
+          "nmi": 0.33327251894627996,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 47,
+            "3": 47,
+            "4": 47,
+            "5": 48,
+            "6": 48,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_1011e1c9812b84d2a9ed7bb5b55809f8_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "1033f41fd2decfa938da3ea2c9e0e4f",
+      "n_points": 2785,
+      "n_parts": 2,
+      "baseline_superquadric": {
+        "final_loss": 2.732274446697241,
+        "metrics": {
+          "purity": 0.9666068222621185,
+          "boundary_leakage": 0.033393177737881495,
+          "nmi": 0.46523557357267453,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 48,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 48,
+            "6": 48,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_1033f41fd2decfa938da3ea2c9e0e4f_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.7619108474635408,
+        "metrics": {
+          "purity": 0.9346499102333932,
+          "boundary_leakage": 0.06535008976660679,
+          "nmi": 0.4075455876463265,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 48,
+            "1": 48,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 48,
+            "6": 48,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_1033f41fd2decfa938da3ea2c9e0e4f_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "103ad97126bc54f4fc5e9e325e1bd5b8",
+      "n_points": 2619,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.681124020074624,
+        "metrics": {
+          "purity": 0.9148529973272241,
+          "boundary_leakage": 0.08514700267277585,
+          "nmi": 0.36975313341631305,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 47,
+            "6": 48,
+            "7": 48
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_103ad97126bc54f4fc5e9e325e1bd5b8_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.8280679586479767,
+        "metrics": {
+          "purity": 0.9289805269186713,
+          "boundary_leakage": 0.07101947308132874,
+          "nmi": 0.4012325127224076,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 47,
+            "6": 48,
+            "7": 48
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_103ad97126bc54f4fc5e9e325e1bd5b8_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "1040cd764facf6981190e285a2cbc9c",
+      "n_points": 2849,
+      "n_parts": 2,
+      "baseline_superquadric": {
+        "final_loss": 2.8974112435845996,
+        "metrics": {
+          "purity": 0.8792558792558792,
+          "boundary_leakage": 0.12074412074412075,
+          "nmi": 0.2983714321389984,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 49,
+            "1": 49,
+            "2": 49,
+            "3": 49,
+            "4": 49,
+            "5": 49,
+            "6": 49,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_1040cd764facf6981190e285a2cbc9c_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.6517453309992565,
+        "metrics": {
+          "purity": 0.8641628641628641,
+          "boundary_leakage": 0.13583713583713583,
+          "nmi": 0.28917246741181574,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 49,
+            "2": 49,
+            "3": 49,
+            "4": 49,
+            "5": 49,
+            "6": 49,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_1040cd764facf6981190e285a2cbc9c_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "104c8e90ecf0e5351ed672982b7954af",
+      "n_points": 2695,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.8791255855780147,
+        "metrics": {
+          "purity": 0.9621521335807051,
+          "boundary_leakage": 0.037847866419295,
+          "nmi": 0.47346353173334194,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 48,
+            "1": 47,
+            "2": 47,
+            "3": 47,
+            "4": 48,
+            "5": 47,
+            "6": 47,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_104c8e90ecf0e5351ed672982b7954af_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.1347902646348396,
+        "metrics": {
+          "purity": 0.9695732838589981,
+          "boundary_leakage": 0.030426716141001866,
+          "nmi": 0.47864983774914155,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 48,
+            "1": 47,
+            "2": 47,
+            "3": 47,
+            "4": 48,
+            "5": 47,
+            "6": 47,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_104c8e90ecf0e5351ed672982b7954af_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "104ebf7f96c77fb46a0faccc2a4015d8",
+      "n_points": 2658,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.8571723467057617,
+        "metrics": {
+          "purity": 0.909706546275395,
+          "boundary_leakage": 0.09029345372460498,
+          "nmi": 0.22208811490295802,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 48,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 48,
+            "6": 48,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_104ebf7f96c77fb46a0faccc2a4015d8_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.151178390289687,
+        "metrics": {
+          "purity": 0.9119638826185101,
+          "boundary_leakage": 0.08803611738148984,
+          "nmi": 0.20949087586619217,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 48,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 47,
+            "6": 48,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_104ebf7f96c77fb46a0faccc2a4015d8_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "10506aab1adfe9f4eb7b988bf4f0d1ef",
+      "n_points": 2840,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.5938018853640363,
+        "metrics": {
+          "purity": 0.8672535211267606,
+          "boundary_leakage": 0.13274647887323943,
+          "nmi": 0.28821139242256116,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 47,
+            "6": 49,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_10506aab1adfe9f4eb7b988bf4f0d1ef_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.789234800828203,
+        "metrics": {
+          "purity": 0.877112676056338,
+          "boundary_leakage": 0.12288732394366197,
+          "nmi": 0.3050590405390352,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 49,
+            "1": 47,
+            "2": 48,
+            "3": 47,
+            "4": 47,
+            "5": 47,
+            "6": 49,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_10506aab1adfe9f4eb7b988bf4f0d1ef_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "105b9a03ddfaf5c5e7828dbf1991f6a4",
+      "n_points": 2696,
+      "n_parts": 2,
+      "baseline_superquadric": {
+        "final_loss": 2.8670182162276525,
+        "metrics": {
+          "purity": 0.9595697329376854,
+          "boundary_leakage": 0.04043026706231453,
+          "nmi": 0.3952420155371596,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 48,
+            "1": 47,
+            "2": 47,
+            "3": 47,
+            "4": 48,
+            "5": 47,
+            "6": 48,
+            "7": 48
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_105b9a03ddfaf5c5e7828dbf1991f6a4_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.044545604259725,
+        "metrics": {
+          "purity": 0.9625370919881305,
+          "boundary_leakage": 0.03746290801186944,
+          "nmi": 0.39097900583823153,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 48,
+            "1": 47,
+            "2": 47,
+            "3": 47,
+            "4": 48,
+            "5": 47,
+            "6": 48,
+            "7": 48
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_105b9a03ddfaf5c5e7828dbf1991f6a4_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "105f53a6471f3ceb4a420e3c1b966720",
+      "n_points": 2575,
+      "n_parts": 2,
+      "baseline_superquadric": {
+        "final_loss": 2.6202159701212717,
+        "metrics": {
+          "purity": 0.9258252427184466,
+          "boundary_leakage": 0.0741747572815534,
+          "nmi": 0.27168254683117543,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 47,
+            "3": 47,
+            "4": 48,
+            "5": 47,
+            "6": 47,
+            "7": 47
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_105f53a6471f3ceb4a420e3c1b966720_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 1.412028960624344,
+        "metrics": {
+          "purity": 0.96,
+          "boundary_leakage": 0.039999999999999994,
+          "nmi": 0.358341291361903,
+          "n_parts": 2,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 48,
+            "3": 47,
+            "4": 48,
+            "5": 47,
+            "6": 48,
+            "7": 48
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_105f53a6471f3ceb4a420e3c1b966720_gaussian_aware_superquadric.json"
+      }
+    },
+    {
+      "category": "table",
+      "object": "10657fcfce1d326b30bbd4cddd04c77b",
+      "n_points": 2811,
+      "n_parts": 3,
+      "baseline_superquadric": {
+        "final_loss": 2.8883739251750393,
+        "metrics": {
+          "purity": 0.8591248665955176,
+          "boundary_leakage": 0.14087513340448238,
+          "nmi": 0.2855219394257665,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 47,
+            "3": 49,
+            "4": 49,
+            "5": 49,
+            "6": 47,
+            "7": 49
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_10657fcfce1d326b30bbd4cddd04c77b_baseline_superquadric.json"
+      },
+      "gaussian_aware_superquadric": {
+        "final_loss": 2.3666332353136648,
+        "metrics": {
+          "purity": 0.8861615083600143,
+          "boundary_leakage": 0.11383849163998579,
+          "nmi": 0.3454995776640789,
+          "n_parts": 3,
+          "n_primitives": 8,
+          "primitive_majority_labels": {
+            "0": 47,
+            "1": 47,
+            "2": 47,
+            "3": 49,
+            "4": 49,
+            "5": 49,
+            "6": 47,
+            "7": 49
+          }
+        },
+        "primitive_file": "artifacts/shapesplat_part_consistency_table_10657fcfce1d326b30bbd4cddd04c77b_gaussian_aware_superquadric.json"
+      }
+    }
+  ]
+}
