@@ -10,7 +10,7 @@ by the dataset index were excluded because they contained only normals and did
 not provide the required `coord.npy`, `scale.npy`, `quat.npy`, and
 `opacity.npy` files.
 
-Each method fits 16 primitives for 20 refinement iterations. The Gaussian-aware
+Each method fits 16 primitives for 12 refinement iterations. The Gaussian-aware
 method uses covariance, orientation, opacity, and 3-channel color features.
 Source meshes are sampled at 3,000 points after axis-aligned bounding-box
 normalization. Primitive surfaces are sampled at 256 points per primitive.
@@ -53,7 +53,7 @@ python scripts/download_shapesplat_batch.py \
 
 python scripts/run_shapesplat_benchmark.py \
   --categories airplane,bottle,bowl,car,cone,cup,desk,lamp,table \
-  --objects-per-category 8 --n-primitives 16 --iterations 20 \
+  --objects-per-category 8 --n-primitives 16 --iterations 12 \
   --source-points 3000 --samples 256 --workers 1
 
 python scripts/summarize_benchmark.py

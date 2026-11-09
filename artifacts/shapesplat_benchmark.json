@@ -6,13 +6,14 @@
     "categories": "airplane,bottle,bowl,car,cone,cup,desk,lamp,table",
     "objects_per_category": 8,
     "n_primitives": 16,
-    "iterations": 20,
+    "iterations": 12,
     "feature_weight": 0.05,
     "source_points": 3000,
     "samples": 256,
     "workers": 1,
     "seed": 7,
-    "output": "artifacts/shapesplat_benchmark.json"
+    "output": "artifacts/shapesplat_benchmark.json",
+    "note": "Rows were produced by the completed 12-iteration run; benchmark supports longer runs via --iterations."
   },
   "n_objects": 67,
   "methods": [
