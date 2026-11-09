@@ -50,3 +50,23 @@ Gaussian-aware Superquadric 是当前最可靠的模型：在真实对象 source
 - `artifacts/shapesplat_subset.json`
 - `artifacts/scene0000_00.report.json`
 - `artifacts/scene0000_00.primitives.json`
+
+## Scene structural consistency result
+
+For the full-scene extension, we evaluated the real SceneSplat-7K ScanNet scene
+`scene0000_00`. The source PLY contains 999,999 Gaussians; a fixed seed=7
+opacity-importance sample of 120,000 Gaussians was used for fitting 64
+primitives, giving a 1,875:1 compression ratio on the fitted representation.
+
+| Scene method | Final fitting loss | Primitive occupancy | Mean center separation | Min center separation | Assignment entropy |
+|---|---:|---:|---:|---:|---:|
+| Center-only baseline | 5.8061 | 1.0000 | 4.2915 | 0.5259 | 3.9427 |
+| Gaussian-aware Superquadric | 5.8167 | 1.0000 | 4.2821 | 0.5592 | 3.9742 |
+
+Both methods activate all 64 primitives and produce similar scene coverage
+statistics. On this single scene, Gaussian-aware attributes do not reduce the
+aggregate scene fitting loss because the overlap regularizer dominates the
+large-room layout; their benefit is clearer in the object source-mesh benchmark.
+The scene result demonstrates the full-scene extension, while semantic part
+purity is not reported because this PLY release does not include per-Gaussian
+part labels.

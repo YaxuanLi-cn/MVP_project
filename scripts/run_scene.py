@@ -33,6 +33,7 @@ def main() -> None:
     p.add_argument("cloud", help="full-scene 3DGS PLY/NPZ")
     p.add_argument("-k", "--n-primitives", type=int, default=64)
     p.add_argument("--primitive-type", choices=["superquadric", "superfrustum"], default="superquadric")
+    p.add_argument("--method", choices=["baseline", "gaussian-aware"], default="gaussian-aware")
     p.add_argument("--iterations", type=int, default=20)
     p.add_argument("--output", default="artifacts/scene_primitives.json")
     p.add_argument("--report", default="artifacts/scene_report.json")
@@ -42,7 +43,8 @@ def main() -> None:
     full_cloud = load_gaussian_cloud(args.cloud)
     input_gaussians = full_cloud.size
     cloud = downsample_cloud(full_cloud, args.max_gaussians, args.seed)
-    config = FitConfig(n_primitives=args.n_primitives, primitive_type=args.primitive_type, iterations=args.iterations, use_gaussian_attributes=True, feature_weight=0.05)
+    aware = args.method == "gaussian-aware"
+    config = FitConfig(n_primitives=args.n_primitives, primitive_type=args.primitive_type, iterations=args.iterations, use_gaussian_attributes=aware, opacity_weight=1.0 if aware else 0.0, feature_weight=0.05 if aware else 0.0)
     primitives, report = fit_primitives(cloud, config)
     save_primitives(primitives, args.output)
     result = {"cloud": args.cloud, "input_gaussians": input_gaussians, "fit_gaussians": cloud.size, "sampling": {"max_gaussians": args.max_gaussians, "seed": args.seed}, "primitive_file": args.output, "fit_report": report.__dict__, "scene_metrics": scene_metrics(cloud, primitives)}

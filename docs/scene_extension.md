@@ -53,9 +53,7 @@ python scripts/run_scene.py \
   --report artifacts/scene0000_00.report.json
 ```
 
-The local implementation was smoke-tested on the real ShapeSplat Gaussian
-cloud (`bowl_0065.npz`) through the same full-scene code path: 17,576 Gaussians
-were compressed to 16 primitives, with all primitives receiving assignments.
+The implementation was run on the real SceneSplat-7K ScanNet scene `scene0000_00`: 999,999 input Gaussians were sampled to 120,000 for fitting and compressed to 64 primitives, with all primitives receiving assignments. A center-only baseline and Gaussian-aware Superquadric both produce full scene reports.
 The SceneSplat-7K index is now accessible with the supplied token, but the
 component Gaussian repositories (for example
 `GaussianWorld/scannet_mcmc_3dgs`) have their own gated access check. The
